@@ -5,5 +5,5 @@ def my_collect(array)
       yield(array[i])
       i = i + 1
     end
-    new_array.
+    new_array.upcase
 end 
